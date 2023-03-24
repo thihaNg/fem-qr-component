@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | QR code component</title>
 
+  <title>Frontend Mentor | QR code component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     body {
       padding: 0px;
       margin: 0px;
-      background-color: rgb(191, 191, 213);
+      background: #d6e2f0;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
     }
-    .container {
+
+    main {
       display: inline-flex;
       flex-direction: column;
       background-color: white;
@@ -28,24 +33,29 @@
       width: 200px;
       padding: 12px;
       text-align: center;
-      font-family: 'Times New Roman', Times, serif;
+      font-family: 'Outfit', sans-serif;
     }
+
     img {
       border-radius: 6px;
     }
+
     span {
       color: rgb(97, 96, 96);
       padding-bottom: 16px;
     }
+    h1 {
+      font-size: 18px;
+    }
   </style>
 </head>
+
 <body>
-  <div
-    class="container">
-    <img
-      src="./images/image-qr-code.png"/>
-    <h4>Improve your front-end skills by building projects</h4>
+  <main>
+    <img alt="QR Code" src="./images/image-qr-code.png" />
+    <h1>Improve your front-end skills by building projects</h1>
     <span>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level.</span>
-  </div>
+  </main>
 </body>
+
 </html>
